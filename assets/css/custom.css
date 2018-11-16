@@ -1,0 +1,8 @@
+.cover-img{
+    background: url("../img/background.jpg") no-repeat fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 10%;
+}
