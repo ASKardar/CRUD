@@ -4,7 +4,7 @@ class DBConnection
 {
     public function query($query)
     {
-        $conn = new mysqli("https://db4free.net:3306", "cruduser", "crudtest", "cruddatabase");
+        $conn = new mysqli("db4free.net", "cruduser", "crudtest", "cruddatabase","3306");
         if($conn->connect_errno)
             die($conn->connect_error);
         $result = $conn->query($query);
