@@ -32,8 +32,8 @@
                     <th>No.</th>
                     <th>Name</th>
                     <th>Reg. Id</th>
-                    <th>gender</th>
-                    <th>No of emails</th>
+                    <th>Gender</th>
+                    <th>Email</th>
                     <th>Action</th>
                 </tr>
                 <?php
